@@ -68,6 +68,7 @@ Generated Civil Engineering Insights
 📁 Project Structure
 
 civil-engineering-insight/
+
 │
 
 ├── app.py
@@ -144,4 +145,5 @@ Advanced structural defect and damage detection
 🧑‍💻 Author
 
 Rucksar Shaik
+
 Internship Project – AI in Civil Engineering
