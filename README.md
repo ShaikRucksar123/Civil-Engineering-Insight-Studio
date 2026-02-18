@@ -8,10 +8,15 @@ An AI-powered web application that intelligently analyzes images of civil engine
 Civil Engineering Insight Studio enables users to upload images of civil engineering structures such as buildings, bridges, dams, and roads. The system processes the image using advanced AI vision capabilities and provides an automated structural analysis that includes:
 
 🏢 Type of Structure
+
 🧱 Structural System
+
 🏗️ Materials Used
+
 ⚙️ Construction Techniques
+
 🎯 Engineering Purpose
+
 🛡️ Safety and Design Features
 
 The application combines a modern Streamlit interface with Google Gemini Flash for intelligent image-based engineering interpretation.
@@ -38,15 +43,25 @@ Authentication: API Key
 ⚙️ System Architecture
 
 User
+
 ↓
+
 Streamlit Web Interface
+
 ↓
+
 Python Backend (app.py)
+
 ↓
+
 Google GenAI Client (google-genai)
+
 ↓
+
 Gemini Flash Vision Model
+
 ↓
+
 Generated Civil Engineering Insights
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -54,9 +69,13 @@ Generated Civil Engineering Insights
 
 civil-engineering-insight/
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .gitignore
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
