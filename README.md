@@ -25,18 +25,27 @@ The application combines a modern Streamlit interface with Google Gemini Flash f
 🧠 Technologies Used
 
 Python
+
 Streamlit – Interactive Web Interface
+
 Google Gemini Generative AI API
+
 Gemini Flash (Vision Model)
+
 Pillow (PIL) – Image Processing
+
 python-dotenv – Environment Variable Management
+
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 🔑 API Used
 
 API Name: Google Gemini Generative AI API
+
 Python SDK: google-genai
+
 Model: models/gemini-flash-latest
+
 Authentication: API Key
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -85,8 +94,11 @@ civil-engineering-insight/
 Create a file named requirements.txt:
 
 streamlit
+
 python-dotenv
+
 Pillow
+
 google-genai
 
 Install dependencies:
@@ -117,28 +129,41 @@ The application will automatically open in your default web browser.
 🖼️ Application Workflow
 
 Upload an image of a civil engineering structure
+
 Optionally provide additional description
+
 Image and text are processed by the Gemini Flash Vision model
+
 AI analyzes structural characteristics
+
 Structured engineering insights are displayed instantly
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 📊 Sample Output
 
 Type of Structure: Reinforced Concrete Building
+
 Structural System: RCC Frame Structure
+
 Materials Used: Concrete, Steel Reinforcement
+
 Construction Technique: Cast-in-place Concrete
+
 Engineering Purpose: Residential or Commercial Usage
+
 Safety Features: Columns, Beams, Load Distribution Systems
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - 
 🚀 Future Enhancements
 
 Automated PDF report generation
+
 Confidence scoring for AI insights
+
 Multi-image comparative analysis
+
 Cloud deployment using Streamlit Cloud
+
 Advanced structural defect and damage detection
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
